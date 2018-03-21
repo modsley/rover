@@ -51,5 +51,10 @@
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/ArduinoThread</locationURI>
 		</link>
+		<link>
+			<name>libraries/leOS2</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/leOS2</locationURI>
+		</link>
 	</linkedResources>
 </projectDescription>

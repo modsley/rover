@@ -1,8 +1,9 @@
 #include "Arduino.h"
-#include <ThreadController.h>
-#include <Thread.h>
-#include <StaticThreadController.h>
+//#include <ThreadController.h>
+//#include <Thread.h>
+//#include <StaticThreadController.h>
 #include <AltSoftSerial.h>
+#include <leOS2.h>
 // test git
 
 //D0
@@ -41,9 +42,12 @@ const byte motorRE = 6; // right engine en
 const byte SWSRX = 8; // BT TXD
 const byte SWSTW = 9; // BT RXD
 
+leOS2 myOS;
+
+
 #include "Motors.h"
 #include "BTControlPanel.h"
-#include "Threads.h"
+//#include "Threads.h"
 
 
 void setup()
@@ -56,20 +60,23 @@ void setup()
     Serial.print("Uploaded: ");   Serial.println(__DATE__);
     Serial.println(" ");
   }
-  InitThreads();
+ myOS.begin();
+ myOS.addTask(BTConnection, myOS.convertMs(100));
+//  InitThreads();
   BTConnect();
   motorSetup();
 }
 
 void loop()
 {
-  omlController.run();
-  if (mainsActive) // Main program
-  {
+  //omlController.run();
+
+	if (mainsActive) // Main program
+	{
 // START MAIN PROGRAM
 
 
 // END MAIN PROGRAM
-  }
+	}
 }
 

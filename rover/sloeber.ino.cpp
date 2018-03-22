@@ -2,7 +2,7 @@
 //This is a automatic generated file
 //Please do not modify this file
 //If you touch this file your change will be overwritten during the next build
-//This file has been generated on 2018-03-22 12:40:38
+//This file has been generated on 2018-03-22 15:02:07
 
 #include "Arduino.h"
 #include "Arduino.h"
@@ -22,7 +22,6 @@ extern const byte motorRE;
 extern const byte SWSRX;
 extern const byte SWSTW;
 extern leOS2 myOS;
-extern iarduino_Position_BMX055 imu;
 #include "Motors.h"
 #include "BTControlPanel.h"
 #include "imu.h";

@@ -1,10 +1,8 @@
 #include "Arduino.h"
-//#include <ThreadController.h>
-//#include <Thread.h>
-//#include <StaticThreadController.h>
 #include <AltSoftSerial.h>
 #include <leOS2.h>
-// test git
+#define BMX055_DISABLE_BMM; //do not use compass
+#include <iarduino_Position_BMX055.h>
 
 //D0
 //D1
@@ -31,7 +29,6 @@ AltSoftSerial BTserial;
 boolean DEBUG = true;
 boolean mainsActive = false;
 
-
 // Pins configuration
 const byte motorL1 = 18; // left engine pin 1
 const byte motorL2 = 19; // left engine pin 2
@@ -44,37 +41,34 @@ const byte SWSTW = 9; // BT RXD
 
 leOS2 myOS;
 
+iarduino_Position_BMX055 imu(BMX);
+
 
 #include "Motors.h"
 #include "BTControlPanel.h"
-//#include "Threads.h"
+#include "imu.h";
 
-
-void setup()
-{
-  if (DEBUG)
-  {
-    // open serial communication for debugging
-    Serial.begin(9600);
-    Serial.print("Sketch:   ");   Serial.println(__FILE__);
-    Serial.print("Uploaded: ");   Serial.println(__DATE__);
-    Serial.println(" ");
-  }
- myOS.begin();
- myOS.addTask(BTConnection, myOS.convertMs(100));
-//  InitThreads();
-  BTConnect();
-  motorSetup();
+void setup() {
+	if (DEBUG) {
+		// open serial communication for debugging
+		Serial.begin(9600);
+		Serial.print("Sketch:   ");
+		Serial.println(__FILE__);
+		Serial.print("Uploaded: ");
+		Serial.println(__DATE__);
+		Serial.println(" ");
+	}
+	myOS.begin();
+	myOS.addTask(BTConnection, myOS.convertMs(100));
+	BTConnect();
+	motorSetup();
+	imuTest();
 }
 
-void loop()
-{
-  //omlController.run();
-
+void loop() {
 	if (mainsActive) // Main program
 	{
 // START MAIN PROGRAM
-
 
 // END MAIN PROGRAM
 	}

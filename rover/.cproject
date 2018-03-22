@@ -24,6 +24,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/AltSoftSerial}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/ArduinoThread}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/leOS2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.cpp.sketch.input.903021510" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
 							</tool>
@@ -34,6 +36,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/AltSoftSerial}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/ArduinoThread}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/leOS2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.c.sketch.input.461671191" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
 							</tool>
@@ -44,6 +48,8 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/AltSoftSerial}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/ArduinoThread}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/leOS2}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/rover/libraries/iarduino_Position_BMX055/src}&quot;"/>
 								</option>
 								<inputType id="io.sloeber.compiler.S.sketch.input.768420008" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
 							</tool>

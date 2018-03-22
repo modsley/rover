@@ -52,6 +52,11 @@
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/ArduinoThread</locationURI>
 		</link>
 		<link>
+			<name>libraries/iarduino_Position_BMX055</name>
+			<type>2</type>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/iarduino_Position_BMX055</locationURI>
+		</link>
+		<link>
 			<name>libraries/leOS2</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/leOS2</locationURI>

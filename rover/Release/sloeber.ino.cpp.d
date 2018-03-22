@@ -10,12 +10,19 @@ sloeber.ino.cpp.o: ..\sloeber.ino.cpp \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\cores\arduino/USBAPI.h \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\cores\arduino/Arduino.h \
  C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\variants\standard/pins_arduino.h \
- C:\sloeber\arduinoPlugin\libraries\ArduinoThread/ThreadController.h \
- C:\sloeber\arduinoPlugin\libraries\ArduinoThread/Thread.h \
- C:\sloeber\arduinoPlugin\libraries\ArduinoThread/Thread.h \
- C:\sloeber\arduinoPlugin\libraries\ArduinoThread/StaticThreadController.h \
  C:\sloeber\arduinoPlugin\libraries\AltSoftSerial/AltSoftSerial.h \
- ..\Motors.h ..\BTControlPanel.h ..\Threads.h ..\rover.ino
+ C:\sloeber\arduinoPlugin\libraries\leOS2/leOS2.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/memorysaver.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_I2C.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMA.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMG.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMM.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_ALL.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Madgwick.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Madgwick_No_Mag.h \
+ C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Mahony.h \
+ ..\Motors.h ..\BTControlPanel.h ..\imu.h ..\rover.ino
 
 C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\cores\arduino/Arduino.h:
 
@@ -39,20 +46,34 @@ C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\cores\arduino/Ardu
 
 C:\sloeber\arduinoPlugin\packages\arduino\hardware\avr\1.6.21\variants\standard/pins_arduino.h:
 
-C:\sloeber\arduinoPlugin\libraries\ArduinoThread/ThreadController.h:
-
-C:\sloeber\arduinoPlugin\libraries\ArduinoThread/Thread.h:
-
-C:\sloeber\arduinoPlugin\libraries\ArduinoThread/Thread.h:
-
-C:\sloeber\arduinoPlugin\libraries\ArduinoThread/StaticThreadController.h:
-
 C:\sloeber\arduinoPlugin\libraries\AltSoftSerial/AltSoftSerial.h:
+
+C:\sloeber\arduinoPlugin\libraries\leOS2/leOS2.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/memorysaver.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_I2C.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMA.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMG.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_BMM.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_ALL.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Madgwick.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Madgwick_No_Mag.h:
+
+C:\sloeber\arduinoPlugin\libraries\iarduino_Position_BMX055\src/iarduino_Position_BMX055_Mahony.h:
 
 ..\Motors.h:
 
 ..\BTControlPanel.h:
 
-..\Threads.h:
+..\imu.h:
 
 ..\rover.ino:
